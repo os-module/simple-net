@@ -6,7 +6,7 @@ use crate::common::{TCP_RX_BUF_LEN, TCP_TX_BUF_LEN, UDP_RX_BUF_LEN, UDP_TX_BUF_L
 use crate::device::NetDeviceWrapper;
 use crate::{KernelNetFunc, NET_INTERFACE};
 use kernel_sync::TicketMutex as Mutex;
-use log::{info};
+use log::info;
 use smoltcp::iface::{Config, Interface, SocketHandle, SocketSet};
 use smoltcp::socket;
 use smoltcp::socket::AnySocket;
